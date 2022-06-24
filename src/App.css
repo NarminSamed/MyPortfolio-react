@@ -15,7 +15,7 @@
 
 /* Navbar */
 nav {
-    z-index: 2;
+    z-index: 999;
 }
 .logo {
     width: 14rem;
@@ -94,4 +94,96 @@ nav ul li {
     .typed-text {
         font-size: 1.7rem !important;
     }
+    .about-heading {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .p-text {
+        text-align: justify;
+    }
+    .about-text {
+        font-size: 1rem !important;
+    }
+}
+
+/* About me */
+.photo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profil-image {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    padding: .3rem;
+    object-fit: cover;
+    border: 1px solid var(--primary-orange);
+}
+.about-heading {
+    text-transform: uppercase;
+    color: var(--primary-orange);
+    font-weight: bold;
+}
+.about-text {
+    font-size: 1.3rem;
+}
+
+/* Services */
+.services {
+    text-align: center;
+    background-color: var(--primary-light-grey);
+    padding-bottom: 2rem;
+}
+.services h1 {
+    text-transform: uppercase;
+}
+.services .circle {
+    position: relative;
+    margin: .0375rem;
+    background-color: var(--primary-orange);
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+}
+
+.services .circle .icon {
+    font-size: 1.4rem;
+    color: var(--primary-white);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.services .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--primary-white);
+    border-bottom: .3005rem solid var(--primary-orange);
+    padding: .670rem;
+    margin-bottom: 1.875rem;
+    height: 250px;
+    transition: all .3s ease;
+    border-radius: 10px;
+}
+
+.services .box:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.services .box:hover .icon {
+    color: var(--primary-dark);
+}
+.services .box:hover .circle {
+    background: var(--primary-orange);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.box h2 {
+  font-size: 1.4rem;
+  margin-top: .9rem;
+}
+.box p {
+    padding: 5px;
 }

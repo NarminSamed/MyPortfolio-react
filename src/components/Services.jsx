@@ -16,7 +16,7 @@ const Services = () => {
                 <FontAwesomeIcon icon={faGoogle} className='icon' />
               </div>
               <h2>SEO</h2>
-              <p>SEO stands for search engine optimization. SEO is the process of taking steps to help a website or piece of content rank higher on Google.</p>
+              <p>SEO is the process of taking steps to help a website or piece of content rank higher on Google.</p>
             </div>
           </div>
 
@@ -48,7 +48,7 @@ const Services = () => {
                 <FontAwesomeIcon icon={faDesktop} className='icon' />
               </div>
               <h2>IT, helpdesk</h2>
-              <p>An IT help desk is a software platform that helps users solve their problems through a single (or multiple) point of contact.</p>
+              <p>An IT help desk is a software platform that helps users solve their problems through a single point of contact.</p>
             </div>
           </div>      
 
